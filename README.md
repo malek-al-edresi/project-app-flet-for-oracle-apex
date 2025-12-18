@@ -168,4 +168,3 @@ For issues or questions:
 3. Ensure you're using the virtual environment
 4. Test the API endpoint directly in a browser
 
----
