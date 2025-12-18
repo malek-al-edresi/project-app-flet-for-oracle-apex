@@ -6,13 +6,17 @@ echo "Setting up Patient Viewer App..."
 cd ~
 
 # Create virtual environment
-python3 -m venv patient_viewer_venv
+# Create a virtual environment
+python3 -m venv medical_app_env
 
-# Activate it
-source patient_viewer_venv/bin/activate
+# Activate the environment
+source medical_app_env/bin/activate
 
-# Install packages
+# Install packages in the virtual environment
 pip install flet requests
+
+# Run your application
+python main.py
 
 echo "Setup complete!"
 echo ""
