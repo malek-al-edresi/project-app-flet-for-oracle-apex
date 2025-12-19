@@ -1,13 +1,13 @@
 # Patient Data Viewer - Flet Application for Oracle APEX & Autonomous Database
 
-## 📋 Overview
+## Overview
 
 A modern desktop/web application built with Python and Flet that provides seamless access to patient data stored in **Oracle Autonomous Database with AI (26ai)** and served through **Oracle APEX ORDS REST APIs**. This application bridges the gap between enterprise database systems and user-friendly interfaces.
 
 ![Patient Data Viewer Application](./screenshot/return_Data.png)
 *Application interface showing categorized patient information*
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 ### Database & API Integration
 ```
@@ -20,7 +20,7 @@ Oracle Autonomous Database (26ai) → APEX ORDS REST API → Flet Application �
 3. **Flet Application**: Cross-platform UI with real-time data fetching
 4. **Postman Testing**: API validation and testing tool
 
-## 🖼️ System Flow Visualization
+## System Flow Visualization
 
 ### Database Schema
 ![Patient Data Viewer on database](./screenshot/database.png)
@@ -30,7 +30,7 @@ Oracle Autonomous Database (26ai) → APEX ORDS REST API → Flet Application �
 ![Patient Data Viewer On Postman](./screenshot/postman.png)
 *API endpoint testing and validation using Postman*
 
-## 🔗 Oracle APEX Integration Features
+## Oracle APEX Integration Features
 
 ### Direct ORDS API Connection
 - **Endpoint**: `ords/medical_sys_api/basic_sec_api/basic_sec_view_r_profile_patient/{patient_id}`
@@ -74,7 +74,7 @@ python main.py --view desktop  # Desktop mode
 python main.py                 # Web browser mode
 ```
 
-## 📊 Data Flow & Processing
+## Data Flow & Processing
 
 ### From Database to Display:
 1. **Oracle Autonomous Database (26ai)**: AI-optimized data storage
@@ -89,7 +89,7 @@ python main.py                 # Web browser mode
 - **Medical Records**: Health-related data
 - **Emergency Contacts**: Critical contact information
 
-## 🛠️ Development & Customization
+## Development & Customization
 
 ### Extending for Autonomous Database AI Features:
 ```python
@@ -107,7 +107,7 @@ def analyze_patient_trends(patient_data):
 3. **Automated Reporting**: Schedule APEX REST calls
 4. **Multi-tenant Support**: Configure for multiple APEX workspaces
 
-## 🔒 Security Implementation
+## Security Implementation
 
 ### Authentication Methods:
 1. **APEX Session Tokens**: Maintain APEX application sessions
@@ -121,7 +121,7 @@ def analyze_patient_trends(patient_data):
 - **Error Handling**: No sensitive data in error messages
 - **Environment Variables**: Secure credential storage
 
-## 📈 Performance Optimization
+## Performance Optimization
 
 ### Leveraging Oracle 26ai Features:
 - **Automatic Indexing**: AI-driven query optimization
@@ -135,7 +135,7 @@ def analyze_patient_trends(patient_data):
 - **Lazy Loading**: Load data categories on demand
 - **Progress Indicators**: Real-time fetch status
 
-## 🎯 Use Cases
+## Use Cases
 
 ### Healthcare Scenarios:
 1. **Clinical Viewing**: Quick patient data access during consultations
@@ -149,15 +149,15 @@ def analyze_patient_trends(patient_data):
 3. **Reporting Tool**: Data extraction for analysis
 4. **Training Environment**: Safe patient data demonstration
 
-## 🤝 Support & Contribution
+## Support & Contribution
 
-### 👤 Author & Lead Developer
+### Author & Lead Developer
 **Malek Mohammed Al-Edresi**  
 Oracle Certified Professional | APEX Developer Specialist  
 Specializing in Oracle Database Architecture, APEX Development, and Enterprise Integration
 
-📧 **Contact**: [LinkedIn Profile](https://www.linkedin.com/in/malek-al-edresi)  
-🐙 **GitHub**: [malek-al-edresi](https://github.com/malek-al-edresi)
+**Contact**: [LinkedIn Profile](https://www.linkedin.com/in/malek-al-edresi)  
+**GitHub**: [malek-al-edresi](https://github.com/malek-al-edresi)
 
 ### Technical Support:
 1. **APEX Configuration**: REST module setup and troubleshooting
@@ -171,7 +171,7 @@ Specializing in Oracle Database Architecture, APEX Development, and Enterprise I
 - Report issues with detailed reproduction steps
 - Share your integration success stories
 
-## 📚 Resources & References
+## Resources & References
 
 ### Documentation:
 - [Oracle APEX RESTful Services Guide](https://docs.oracle.com/en/database/oracle/apex/)
