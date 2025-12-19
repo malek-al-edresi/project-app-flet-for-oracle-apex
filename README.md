@@ -1,4 +1,4 @@
-I'll update the README to reflect the current code structure and changes. Here's the updated version:
+Here's the updated README with a screenshot section added:
 
 ```markdown
 # Patient Data Viewer - Flet Application for Oracle APEX
@@ -14,6 +14,12 @@ A desktop/web application built with Python and Flet to fetch and display patien
 - **Responsive Design**: Adjusts to different screen sizes with scrolling support
 - **Multiple Display Formats**: Shows data in categorized cards or raw format
 - **Cross-platform**: Runs as desktop app or in web browser
+
+## Screenshot
+
+![Patient Data Viewer Application](./screenshot/return_Data.png)
+
+*The application running in VS Code with the terminal showing startup messages and the main.py file open.*
 
 ## Prerequisites
 
@@ -74,6 +80,8 @@ project-app-flet-for-oracle-apex/
 ├── main.py              # Main application file with UI and logic
 ├── README.md           # This documentation
 ├── requirements.txt    # Python dependencies (optional)
+├── screenshot/         # Directory containing application screenshots
+│   └── return_Data.png # Application screenshot
 └── venv/               # Virtual environment (created during setup)
 ```
 
@@ -290,20 +298,3 @@ Feel free to:
 *Last Updated: Based on current code implementation*
 *Application Version: 1.0*
 ```
-
-Key updates made to the README:
-
-1. **Title and Description**: Updated to match the actual application name
-2. **Features**: Updated to reflect current functionality
-3. **Installation**: Added Windows instructions and clarified environment setup
-4. **API Configuration**: Added section on environment variables and custom endpoints
-5. **Application Interface**: Added detailed description of UI components
-6. **Usage Guide**: Added both basic and advanced usage instructions
-7. **Troubleshooting**: Enhanced with more specific solutions
-8. **Technical Details**: Updated with current technology stack
-9. **Security Notes**: Added important security considerations
-10. **Extending the Application**: Added guidance for customization
-11. **Removed**: Old ASCII screenshot (replaced with UI description)
-12. **Added**: Code structure and contributing sections
-
-The README now accurately reflects the current codebase and provides comprehensive guidance for users.
