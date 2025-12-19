@@ -5,6 +5,9 @@ This Flet application provides a seamless interface for viewing patient data fro
 ## Screenshot
 
 ![Patient Data Viewer Application](./screenshot/return_Data.png)
+![Patient Data Viewer on database](./screenshot/database.png)
+![Patient Data Viewer On Postman](./screenshot/postman.png)
+
 
 ### Key Integration Features:
 - **Direct ORDS API Connection**: Connects to `ords/medical_sys_api/basic_sec_api/` endpoints
