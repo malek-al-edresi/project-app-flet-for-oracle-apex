@@ -159,28 +159,3 @@ Specializing in Oracle Database Architecture, APEX Development, and Enterprise I
 **Contact**: [LinkedIn Profile](https://www.linkedin.com/in/malek-al-edresi)  
 **GitHub**: [malek-al-edresi](https://github.com/malek-al-edresi)
 
-### Technical Support:
-1. **APEX Configuration**: REST module setup and troubleshooting
-2. **Database Integration**: Oracle Autonomous Database connection issues
-3. **Application Development**: Flet UI customization and extensions
-4. **Deployment Assistance**: Production environment setup
-
-### Community Contributions:
-- Fork the repository for custom implementations
-- Submit pull requests for enhancements
-- Report issues with detailed reproduction steps
-- Share your integration success stories
-
-## Resources & References
-
-### Documentation:
-- [Oracle APEX RESTful Services Guide](https://docs.oracle.com/en/database/oracle/apex/)
-- [Oracle Autonomous Database 26ai Documentation](https://docs.oracle.com/en/cloud/paas/autonomous-database/)
-- [Flet Framework Documentation](https://flet.dev/docs/)
-- [Python Requests Library](https://docs.python-requests.org/)
-
-### Learning Path:
-1. **Beginner**: APEX REST service creation
-2. **Intermediate**: Oracle Autonomous Database management
-3. **Advanced**: Enterprise application integration
-4. **Expert**: AI/ML implementation with Oracle 26ai
