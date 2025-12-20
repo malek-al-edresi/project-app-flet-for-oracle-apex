@@ -151,7 +151,7 @@ def analyze_patient_trends(patient_data):
 
 ## Support & Contribution
 
-### Author & Lead Developer
+### Developer
 **Malek Mohammed Al-Edresi**  
 Oracle Certified Professional | APEX Developer Specialist  
 Specializing in Oracle Database Architecture, APEX Development, and Enterprise Integration
