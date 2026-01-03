@@ -1,8 +1,8 @@
-# Patient Data Viewer - Flet Application for Oracle APEX & Autonomous Database
+# Patient Data Viewer – Flet Application for Oracle APEX & Autonomous Database
 
 ## Overview
 
-A modern desktop/web application built with Python and Flet that provides seamless access to patient data stored in **Oracle Autonomous Database with AI (26ai)** and served through **Oracle APEX ORDS REST APIs**. This application bridges the gap between enterprise database systems and user-friendly interfaces.
+A modern desktop and web application built with Python and Flet that provides seamless access to patient data stored in **Oracle Autonomous Database with AI (26ai)** and served through **Oracle APEX ORDS REST APIs**. This application bridges the gap between enterprise database systems and user-friendly interfaces.
 
 ![Patient Data Viewer Application](./screenshot/return_Data.png)
 *Application interface showing categorized patient information*
@@ -14,7 +14,7 @@ A modern desktop/web application built with Python and Flet that provides seamle
 Oracle Autonomous Database (26ai) → APEX ORDS REST API → Flet Application → User
 ```
 
-### Components:
+### Components
 1. **Oracle Autonomous Database with AI (26ai)**: Stores patient data with AI-powered optimization
 2. **APEX RESTful Services**: Exposes data via secure ORDS endpoints
 3. **Flet Application**: Cross-platform UI with real-time data fetching
@@ -36,11 +36,11 @@ Oracle Autonomous Database (26ai) → APEX ORDS REST API → Flet Application �
 - **Endpoint**: `ords/medical_sys_api/basic_sec_api/basic_sec_view_r_profile_patient/{patient_id}`
 - **Authentication**: Supports APEX session-based and basic authentication
 - **Response Formats**: Handles multiple JSON structures (`items[]`, `data[]`, direct objects)
-- **SSL/TLS**: Configurable certificate validation for development/production
+- **SSL/TLS**: Configurable certificate validation for development and production environments
 
 ### Oracle Autonomous Database 26ai Advantages
 - **AI-Powered Queries**: Leverages Oracle's built-in machine learning for optimized data retrieval
-- **Auto-scaling**: Handles varying loads without manual intervention
+- **Auto-Scaling**: Handles varying loads without manual intervention
 - **Built-in Security**: Always-free encryption and automated patching
 - **APEX Integration**: Native REST service generation from database objects
 
@@ -76,14 +76,14 @@ python main.py                 # Web browser mode
 
 ## Data Flow & Processing
 
-### From Database to Display:
+### From Database to Display
 1. **Oracle Autonomous Database (26ai)**: AI-optimized data storage
 2. **APEX REST Module**: Secure data exposure via `basic_sec_api`
 3. **ORDS Endpoint**: RESTful service with JSON response
 4. **Flet Application**: Data parsing and categorization
 5. **UI Components**: Organized display in categorized cards
 
-### Supported Data Categories:
+### Supported Data Categories
 - **Personal Information**: Patient demographics
 - **Contact Details**: Communication channels
 - **Medical Records**: Health-related data
@@ -91,7 +91,7 @@ python main.py                 # Web browser mode
 
 ## Development & Customization
 
-### Extending for Autonomous Database AI Features:
+### Extending for Autonomous Database AI Features
 ```python
 # Example: Adding AI-powered data insights
 def analyze_patient_trends(patient_data):
@@ -101,7 +101,7 @@ def analyze_patient_trends(patient_data):
     pass
 ```
 
-### Integration Enhancements:
+### Integration Enhancements
 1. **Real-time Notifications**: Using Oracle Database Advanced Queuing
 2. **AI Analytics**: Integrate Oracle Machine Learning models
 3. **Automated Reporting**: Schedule APEX REST calls
@@ -109,27 +109,27 @@ def analyze_patient_trends(patient_data):
 
 ## Security Implementation
 
-### Authentication Methods:
+### Authentication Methods
 1. **APEX Session Tokens**: Maintain APEX application sessions
-2. **ORDS Basic Authentication**: Simple username/password
-3. **OAuth2.0**: For production deployments
+2. **ORDS Basic Authentication**: Simple username/password authentication
+3. **OAuth 2.0**: For production deployments
 4. **API Keys**: Managed through APEX RESTful Services
 
-### Data Protection:
+### Data Protection
 - **SSL Encryption**: All communications encrypted
 - **Input Validation**: Patient ID sanitization
-- **Error Handling**: No sensitive data in error messages
+- **Error Handling**: No sensitive data exposed in error messages
 - **Environment Variables**: Secure credential storage
 
 ## Performance Optimization
 
-### Leveraging Oracle 26ai Features:
+### Leveraging Oracle 26ai Features
 - **Automatic Indexing**: AI-driven query optimization
 - **In-Memory Processing**: Faster data retrieval
 - **JSON Collections**: Native JSON support in Autonomous Database
 - **Connection Pooling**: Efficient APEX ORDS connections
 
-### Application-Level Optimizations:
+### Application-Level Optimizations
 - **Caching**: Store frequently accessed patient data
 - **Batch Processing**: Handle multiple patient IDs
 - **Lazy Loading**: Load data categories on demand
@@ -137,15 +137,15 @@ def analyze_patient_trends(patient_data):
 
 ## Use Cases
 
-### Healthcare Scenarios:
+### Healthcare Scenarios
 1. **Clinical Viewing**: Quick patient data access during consultations
 2. **Administrative Tasks**: Patient information management
 3. **Emergency Access**: Rapid retrieval in critical situations
 4. **Remote Monitoring**: Off-site patient data viewing
 
-### Enterprise Integration:
+### Enterprise Integration
 1. **Legacy System Bridge**: Connect older systems via APEX REST
-2. **Mobile Access**: Responsive design for tablet/phone use
+2. **Mobile Access**: Responsive design for tablet and phone use
 3. **Reporting Tool**: Data extraction for analysis
 4. **Training Environment**: Safe patient data demonstration
 
@@ -159,3 +159,6 @@ Specializing in Oracle Database Architecture, APEX Development, and Enterprise I
 **Contact**: [LinkedIn Profile](https://www.linkedin.com/in/malek-al-edresi)  
 **GitHub**: [malek-al-edresi](https://github.com/malek-al-edresi)
 
+## License
+
+This project is licensed under the Apache License 2.0.
